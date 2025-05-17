@@ -14,3 +14,16 @@ public:
     friend class Petugas; 
 };
 
+class Penulis{
+private:
+    string namaPenulis;
+
+public:
+    Penulis(string n){
+    namaPenulis = n;
+    }
+  
+
+    friend class Petugas; 
+};
+
