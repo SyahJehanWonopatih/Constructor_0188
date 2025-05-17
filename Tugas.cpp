@@ -52,3 +52,13 @@ public:
     friend class Admin;
 };
 
+int main(){
+    Judul j("Syah Jehan");
+    Penulis p("TeraByte");
+    StatusPeminjaman s("dipinjam");
+
+    Petugas petugas;
+    petugas.tampilData(j, p, s);
+
+    return 0;
+}
